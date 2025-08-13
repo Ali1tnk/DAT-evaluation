@@ -19,10 +19,8 @@ This repository contains tools and scripts for evaluating attack trees using TAP
 
 Run `run_tapaal.sh` after generating trees to simulate and analyze results.
 
-# diagnosability-evaluation/README.md
 
-"""
-# Reproducing the diagnosability evaluation
+## Reproducing the diagnosability evaluation
 1. `python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt`
 2. `python generate_trees.py`
 3. `./run_tapaal.sh`
